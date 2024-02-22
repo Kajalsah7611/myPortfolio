@@ -1,0 +1,159 @@
+ 
+    .imgdiv {
+
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      top: -50px;
+      left: calc(50% - 50px);
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    /* Hide scrollbars 
+
+
+/* Hide scrollbar for Chrome, Safari and Opera
+.example::-webkit-scrollbar {
+    display: none;
+} */
+
+    .blende {
+      background-blend-mode: multiply;
+      filter: contrast(1);
+      background-color: transparent;
+    }
+
+
+    /* Custom CSS to make the icons colorless */
+    .colorless-icon.bi::before {
+      color: inherit !important;
+    }
+
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .experience-card {
+      animation: fadeIn 1s ease-in-out;
+      /* Adjust the duration and easing function as needed */
+    }
+
+    li:hover{
+      transition: transform 0.5s;
+      transform-style: preserve-3d;
+      background-color: #aaaaab;
+      border-radius: 10px;
+    }
+
+
+
+
+    .about-section {
+      background-image: url('https://www.iitms.co.in/images/home-banner.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: hsl(0, 0%, 1%);
+      /* Set text color to white for better visibility */
+     
+      /* Adjust padding as needed */
+    }
+
+    .about-content {
+        padding-left: 50px;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+      /* Adjust the duration and easing function as needed */
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+
+    .skills-section {
+      background-color: #343a40;
+      /* Dark background color */
+      padding: 50px;
+      /* Adjust padding as needed */
+    }
+
+    .skills-card {
+      background-color: #212529;
+      /* Darker card background color */
+      border: none;
+      /* Remove border */
+      margin-bottom: 20px;
+      /* Adjust margin between cards */
+    }
+
+    .skills-card-header {
+      background-color: #495057;
+      /* Header background color */
+      color: #fff;
+      /* Header text color */
+      border-bottom: 1px solid #343a40;
+      /* Border color */
+    }
+
+    .skills-icon {
+      font-size: 2rem;
+      /* Icon size */
+      margin-right: 10px;
+      /* Adjust margin between icon and text */
+    }
+
+    .skills-list-item {
+      background-color: #343a40;
+      /* List item background color */
+      color: #fff;
+      /* List item text color */
+      border: 1px solid #495057;
+      /* Border color */
+    }
+
+   
+    
+    .card {
+      transition: transform 0.5s;
+      transform-style: preserve-3d;
+    }
+    
+    .card:hover {
+      transform: rotateY(9deg) scale(1.1);
+    }
+    
+
+    
+
+
+     
